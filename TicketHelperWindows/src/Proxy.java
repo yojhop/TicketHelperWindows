@@ -57,4 +57,7 @@ public class Proxy implements Comparable {
 	public void desWeight(){
 		weight-=10;
 	}
+	public void setWeight(int weight){
+		this.weight=weight;
+	}
 }

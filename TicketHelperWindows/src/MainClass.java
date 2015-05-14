@@ -47,13 +47,13 @@ public class MainClass {
             }  
             // 读取内容 
             String content=inputStreamToString(response.getEntity().getContent());*/
-			
+			boolean isAllProxy=false;
             loadProxies();
             loadGoods();
             loadUsers();
             for(int i=0;i<goods.size();i++){
             	for(int j=0;j<users.size();j++){
-            		if(j==0&&i==0){
+            		if(!isAllProxy&&j==0&&i==0){
             			BuyTickets bt=new BuyTickets(new Proxy(),goods.get(0),false,users.get(0));
         	            bt.start();
             		}
@@ -106,12 +106,11 @@ public class MainClass {
 			}
 		}
 	}
-	public static void proxyEnd(Proxy p,int sucessTime){
+	public static void proxyEnd(Proxy p){
 		synchronized(proxies){
 			for(Proxy proxy:proxies){
 				if(proxy.equals(p)){
 					proxy.setLocated(false);
-					p.insWeight(sucessTime);
 					p.desWeight();
 					break;
 				}
@@ -218,40 +217,6 @@ public class MainClass {
 	public  static String getNow(){
 		Date d= new Date();
 		return d.toLocaleString();
-	}
-	private static boolean isProxyGood(Proxy p){
-		logger.info("Testing "+p.getIp()+" at "+getNow() );
-		HttpHost proxy = new HttpHost(p.getIp(), p.getPort());
-        client.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
-        HttpGet getMethod = new HttpGet("http://shop.snh48.com");  
-        RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(2000).setConnectTimeout(2000).build();//设置请求和传输超时时间
-        getMethod.setConfig(requestConfig);
-        try {
-        	long reqTime=(new Date()).getTime();
-			HttpResponse response = client.execute(getMethod)  ;
-			long resTime=(new Date()).getTime();
-			p.setRrt(resTime-reqTime);
-			/*String content=inputStreamToString(response.getEntity().getContent());
-			if(content.contains("网络信号弱")){
-				return false;
-			}*/
-			EntityUtils.consumeQuietly(response.getEntity());
-			logger.info("Proxy "+p.getIp()+" is good at "+getNow());
-		} catch (ClientProtocolException e) {
-			logger.error("", e);
-			return false;
-		}
-        catch(IllegalStateException ie){
-        	logger.error("", ie);
-        	logger.info("Will reset httpclient");
-        	client = new DefaultHttpClient();
-        	return isProxyGood(p);
-        }
-        catch (IOException e) {
-			logger.error("", e);
-			return false;
-		}
-        return true;
 	}
 
 }

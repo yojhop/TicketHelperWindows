@@ -72,7 +72,7 @@ public class BuyTickets extends Thread{
 	 Proxy proxy;
 	 goodRound good;
 	 boolean useProxy;
-	 Proxy lastSucProxy;
+	//Proxy lastSucProxy;
 	 int succeedTime=0;
 	 ImageProcessor imageProcessor;
 	 private static Logger logger = Logger.getLogger(BuyTickets.class); 
@@ -195,12 +195,30 @@ public class BuyTickets extends Thread{
 	}
 	public  void buyCurrentGood(){
 		 while(true){
+			long startMilliSecs=(new Date()).getTime();
 			int addToCartRet=addToCart(good.getId(),good.getCount());
+			long endMilliSecs=(new Date()).getTime();
+			long rrt=endMilliSecs-startMilliSecs;
 			//int addToCartRet=0;
 			if(addToCartRet!=4&&addToCartRet!=7){
-				succeedTime++;
-				lastSucProxy=proxy;
-				pw.println("add to cart is not 4(can download image), setting lastSucProxy to "+proxy.getIp()+":"+proxy.getPort());
+				pw.println("before weight is "+proxy.getWeight());
+				pw.println("rrt is "+rrt);
+				int weighting=0;
+				if(rrt<1000){
+					weighting=1;
+				}
+				if(rrt>=2000){
+					weighting=(int)(1-Math.round(rrt/2000+0.5));
+				}
+				if(proxy!=null){
+					proxy.setWeight(proxy.getWeight()+weighting);
+				}
+				succeedTime+=weighting;
+				pw.println("succeedTime is "+succeedTime);
+				pw.println("after set weight is "+proxy.getWeight());
+				pw.flush();
+				//lastSucProxy=proxy;
+				//pw.println("add to cart is not 4(can download image), setting lastSucProxy to "+proxy.getIp()+":"+proxy.getPort());
 			}
 			if(addToCartRet==0){
 				 while(true){
@@ -231,7 +249,7 @@ public class BuyTickets extends Thread{
 				}
 				else{
 					if(addToCartRet==4){
-						MainClass.proxyEnd(proxy, succeedTime);
+						MainClass.proxyEnd(proxy);
 						pw.println("Current proxy "+proxy.getIp()+" is not working, will try to use another proxy at "+ getNow());
 		        		pw.flush();
 						Proxy tempProxy=MainClass.getProxy();
@@ -474,7 +492,7 @@ public class BuyTickets extends Thread{
         	if(useProxy){
         		pw.println("Current proxy "+proxy.getIp()+" is not working, will try to use another proxy at "+getNow());
         		pw.flush();
-        		MainClass.proxyEnd(proxy, succeedTime);
+        		MainClass.proxyEnd(proxy);
         		Proxy tempProxy=MainClass.getProxy();
 				while(tempProxy==null){
 					commonSleep();
@@ -501,7 +519,7 @@ public class BuyTickets extends Thread{
         	if(useProxy){
         		pw.println("Current proxy "+proxy.getIp()+" is not working, will try to use another proxy at "+getNow());
         		pw.flush();
-        		MainClass.proxyEnd(proxy, succeedTime);
+        		MainClass.proxyEnd(proxy);
         		Proxy tempProxy=MainClass.getProxy();
 				while(tempProxy==null){
 					commonSleep();
@@ -546,6 +564,10 @@ public class BuyTickets extends Thread{
         }
         else{
         	pw.println("Download full image code is correct as "+code);
+        }
+        if(succeedTime<-9){
+        	pw.println("This proxy is slow, will try to use another proxy.");
+			return 4;
         }
         param.element("captcha",code);
         param.element( "number", number );  

@@ -1,35 +1,840 @@
-started at May 1, 2015 10:29:39 AM
-login sucessfully with proxy 221.181.6.52 at May 1, 2015 10:29:40 AM
+started at 2015-5-14 20:33:28
+login sucessfully with proxy 14.102.243.235 at 2015-5-14 20:33:29
+Download full image code is correct as 14802
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"14802","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:29, will readd
+before weight is 0
+rrt is 243
+succeedTime is 1
+after set weight is 1
+retry buy good 1744 at 2015-5-14 20:33:30
+Download full image code is correct as 26803
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"26803","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:30, will readd
+before weight is 1
+rrt is 301
+succeedTime is 2
+after set weight is 2
+retry buy good 1744 at 2015-5-14 20:33:31
+Download full image code is correct as 16245
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"16245","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:31, will readd
+before weight is 2
+rrt is 400
+succeedTime is 3
+after set weight is 3
+retry buy good 1744 at 2015-5-14 20:33:32
+Download full image code is correct as 04389
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"04389","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:32, will readd
+before weight is 3
+rrt is 269
+succeedTime is 4
+after set weight is 4
+retry buy good 1744 at 2015-5-14 20:33:33
+Download full image code is correct as 13706
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"13706","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:33, will readd
+before weight is 4
+rrt is 289
+succeedTime is 5
+after set weight is 5
+retry buy good 1744 at 2015-5-14 20:33:34
 cannot download image
-Current proxy 221.181.6.52 is not working, will try to use another proxy
-Trying to use new proxy 210.14.143.132
+Current proxy 14.102.243.235 is not working, will try to use another proxy at 2015-5-14 20:33:34
+Trying to use new proxy 117.177.243.51
 reseting client
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
-	at java.net.Socket.connect(Socket.java:579)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
-	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106)
-	at BuyTickets.login(BuyTickets.java:429)
-	at BuyTickets.resetClient(BuyTickets.java:137)
-	at BuyTickets.buyCurrentGood(BuyTickets.java:229)
-	at BuyTickets.run(BuyTickets.java:116)
-Current proxy 210.14.143.132 is not working, will try to use another proxy
-Trying to use new proxy 183.207.224.14
-login sucessfully with proxy 183.207.224.14 at May 1, 2015 10:30:01 AM
-retry buy good 1744 at May 1, 2015 10:30:02 AM
-Download full image code is correct as vkc42
-{"error":888,"message":"\u6ce8\u610f\uff1a\n\r\u6b64\u5546\u54c1\u4fc3\u9500\u671f\u95f4\u5c0f\u4e1d\u74dcVIP\u9650\u8d2d 3 \u4ef6\uff01\n\r\u60a8\u4e4b\u524d\u8ba2\u5355\u4e2d\u5df2\u7ecf\u5b58\u5728 3 \u4ef6\uff01\n\r\u60a8\u53ea\u80fd\u518d\u4e70 0 \u4ef6\uff01","content":"","goods_id":"1744","captcha":"vkc42","number":"1","donation_number":null}
-Already bought, will exit.
-Ticket bought sucessfully!
+login sucessfully with proxy 117.177.243.51 at 2015-5-14 20:33:34
+retry buy good 1744 at 2015-5-14 20:33:35
+Download full image code is correct as 76329
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"76329","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:39, will readd
+before weight is 0
+rrt is 3848
+succeedTime is -1
+after set weight is -1
+retry buy good 1744 at 2015-5-14 20:33:39
+Download full image code is correct as 15026
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"15026","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:40, will readd
+before weight is -1
+rrt is 758
+succeedTime is 0
+after set weight is 0
+retry buy good 1744 at 2015-5-14 20:33:40
+Download full image code is correct as 57389
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"57389","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:44, will readd
+before weight is 0
+rrt is 3743
+succeedTime is -1
+after set weight is -1
+retry buy good 1744 at 2015-5-14 20:33:45
+Download full image code is correct as 81476
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"81476","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:46, will readd
+before weight is -1
+rrt is 759
+succeedTime is 0
+after set weight is 0
+retry buy good 1744 at 2015-5-14 20:33:46
+Download full image code is correct as 91384
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"91384","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:47, will readd
+before weight is 0
+rrt is 776
+succeedTime is 1
+after set weight is 1
+retry buy good 1744 at 2015-5-14 20:33:48
+Download full image code is correct as 38427
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"38427","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:48, will readd
+before weight is 1
+rrt is 754
+succeedTime is 2
+after set weight is 2
+retry buy good 1744 at 2015-5-14 20:33:49
+Download full image code is correct as 19684
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"19684","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:50, will readd
+before weight is 2
+rrt is 771
+succeedTime is 3
+after set weight is 3
+retry buy good 1744 at 2015-5-14 20:33:50
+Download full image code is correct as 50947
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"50947","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:51, will readd
+before weight is 3
+rrt is 771
+succeedTime is 4
+after set weight is 4
+retry buy good 1744 at 2015-5-14 20:33:52
+Download full image code is correct as 08527
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"08527","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:55, will readd
+before weight is 4
+rrt is 3770
+succeedTime is 3
+after set weight is 3
+retry buy good 1744 at 2015-5-14 20:33:56
+Download full image code is correct as 45197
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"45197","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:57, will readd
+before weight is 3
+rrt is 762
+succeedTime is 4
+after set weight is 4
+retry buy good 1744 at 2015-5-14 20:33:57
+Download full image code is correct as 90841
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"90841","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:33:58, will readd
+before weight is 4
+rrt is 752
+succeedTime is 5
+after set weight is 5
+retry buy good 1744 at 2015-5-14 20:33:59
+Download full image code is correct as 46935
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"46935","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:00, will readd
+before weight is 5
+rrt is 770
+succeedTime is 6
+after set weight is 6
+retry buy good 1744 at 2015-5-14 20:34:00
+Download full image code is correct as 83694
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"83694","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:01, will readd
+before weight is 6
+rrt is 754
+succeedTime is 7
+after set weight is 7
+retry buy good 1744 at 2015-5-14 20:34:01
+Download full image code is correct as 59842
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"59842","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:02, will readd
+before weight is 7
+rrt is 748
+succeedTime is 8
+after set weight is 8
+retry buy good 1744 at 2015-5-14 20:34:03
+Download full image code is correct as 38719
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"38719","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:04, will readd
+before weight is 8
+rrt is 757
+succeedTime is 9
+after set weight is 9
+retry buy good 1744 at 2015-5-14 20:34:04
+Download full image code is correct as 72536
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"72536","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:05, will readd
+before weight is 9
+rrt is 758
+succeedTime is 10
+after set weight is 10
+retry buy good 1744 at 2015-5-14 20:34:06
+Download full image code is correct as 23891
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"23891","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:06, will readd
+before weight is 10
+rrt is 757
+succeedTime is 11
+after set weight is 11
+retry buy good 1744 at 2015-5-14 20:34:07
+Download full image code is correct as 24590
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"24590","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:08, will readd
+before weight is 11
+rrt is 757
+succeedTime is 12
+after set weight is 12
+retry buy good 1744 at 2015-5-14 20:34:08
+Download full image code is correct as 87210
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"87210","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:09, will readd
+before weight is 12
+rrt is 752
+succeedTime is 13
+after set weight is 13
+retry buy good 1744 at 2015-5-14 20:34:10
+Download full image code is correct as 03125
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"03125","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:14, will readd
+before weight is 13
+rrt is 4064
+succeedTime is 11
+after set weight is 11
+retry buy good 1744 at 2015-5-14 20:34:14
+Download full image code is correct as 53470
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"53470","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:15, will readd
+before weight is 11
+rrt is 764
+succeedTime is 12
+after set weight is 12
+retry buy good 1744 at 2015-5-14 20:34:16
+Download full image code is correct as 41653
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"41653","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:16, will readd
+before weight is 12
+rrt is 773
+succeedTime is 13
+after set weight is 13
+retry buy good 1744 at 2015-5-14 20:34:17
+Download full image code is correct as 48123
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"48123","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:18, will readd
+before weight is 13
+rrt is 754
+succeedTime is 14
+after set weight is 14
+retry buy good 1744 at 2015-5-14 20:34:18
+Download full image code is correct as 34281
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"34281","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:19, will readd
+before weight is 14
+rrt is 759
+succeedTime is 15
+after set weight is 15
+retry buy good 1744 at 2015-5-14 20:34:20
+Download full image code is correct as 46308
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"46308","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:20, will readd
+before weight is 15
+rrt is 770
+succeedTime is 16
+after set weight is 16
+retry buy good 1744 at 2015-5-14 20:34:21
+Download full image code is correct as 49160
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"49160","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:22, will readd
+before weight is 16
+rrt is 750
+succeedTime is 17
+after set weight is 17
+retry buy good 1744 at 2015-5-14 20:34:22
+Download full image code is correct as 04253
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"04253","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:23, will readd
+before weight is 17
+rrt is 753
+succeedTime is 18
+after set weight is 18
+retry buy good 1744 at 2015-5-14 20:34:24
+Download full image code is correct as 43620
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"43620","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:25, will readd
+before weight is 18
+rrt is 772
+succeedTime is 19
+after set weight is 19
+retry buy good 1744 at 2015-5-14 20:34:25
+Download full image code is correct as 02718
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"02718","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:26, will readd
+before weight is 19
+rrt is 766
+succeedTime is 20
+after set weight is 20
+retry buy good 1744 at 2015-5-14 20:34:27
+Download full image code is correct as 10759
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"10759","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:27, will readd
+before weight is 20
+rrt is 772
+succeedTime is 21
+after set weight is 21
+retry buy good 1744 at 2015-5-14 20:34:28
+Download full image code is correct as 63987
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"63987","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:29, will readd
+before weight is 21
+rrt is 764
+succeedTime is 22
+after set weight is 22
+retry buy good 1744 at 2015-5-14 20:34:29
+Download full image code is correct as 84195
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"84195","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:30, will readd
+before weight is 22
+rrt is 773
+succeedTime is 23
+after set weight is 23
+retry buy good 1744 at 2015-5-14 20:34:31
+Download full image code is correct as 09347
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"09347","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:31, will readd
+before weight is 23
+rrt is 775
+succeedTime is 24
+after set weight is 24
+retry buy good 1744 at 2015-5-14 20:34:32
+Download full image code is correct as 80456
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"80456","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:33, will readd
+before weight is 24
+rrt is 762
+succeedTime is 25
+after set weight is 25
+retry buy good 1744 at 2015-5-14 20:34:33
+Download full image code is correct as 94765
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"94765","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:34, will readd
+before weight is 25
+rrt is 772
+succeedTime is 26
+after set weight is 26
+retry buy good 1744 at 2015-5-14 20:34:35
+Download full image code is correct as 94032
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"94032","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:38, will readd
+before weight is 26
+rrt is 3760
+succeedTime is 25
+after set weight is 25
+retry buy good 1744 at 2015-5-14 20:34:39
+Download full image code is correct as 46320
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"46320","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:41, will readd
+before weight is 25
+rrt is 1617
+succeedTime is 25
+after set weight is 25
+retry buy good 1744 at 2015-5-14 20:34:41
+Download full image code is correct as 38965
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"38965","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:42, will readd
+before weight is 25
+rrt is 771
+succeedTime is 26
+after set weight is 26
+retry buy good 1744 at 2015-5-14 20:34:43
+Download full image code is correct as 24796
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"24796","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:43, will readd
+before weight is 26
+rrt is 755
+succeedTime is 27
+after set weight is 27
+retry buy good 1744 at 2015-5-14 20:34:44
+Download full image code is correct as 78645
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"78645","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:45, will readd
+before weight is 27
+rrt is 770
+succeedTime is 28
+after set weight is 28
+retry buy good 1744 at 2015-5-14 20:34:45
+Download full image code is correct as 23741
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"23741","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:46, will readd
+before weight is 28
+rrt is 1066
+succeedTime is 28
+after set weight is 28
+retry buy good 1744 at 2015-5-14 20:34:47
+Download full image code is correct as 05276
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"05276","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:48, will readd
+before weight is 28
+rrt is 752
+succeedTime is 29
+after set weight is 29
+retry buy good 1744 at 2015-5-14 20:34:48
+Download full image code is correct as 05397
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"05397","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:49, will readd
+before weight is 29
+rrt is 757
+succeedTime is 30
+after set weight is 30
+retry buy good 1744 at 2015-5-14 20:34:50
+Download full image code is correct as 14293
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"14293","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:51, will readd
+before weight is 30
+rrt is 757
+succeedTime is 31
+after set weight is 31
+retry buy good 1744 at 2015-5-14 20:34:51
+Download full image code is correct as 47231
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"47231","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:52, will readd
+before weight is 31
+rrt is 749
+succeedTime is 32
+after set weight is 32
+retry buy good 1744 at 2015-5-14 20:34:52
+Download full image code is correct as 61203
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"61203","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:53, will readd
+before weight is 32
+rrt is 754
+succeedTime is 33
+after set weight is 33
+retry buy good 1744 at 2015-5-14 20:34:54
+Download full image code is correct as 17594
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"17594","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:55, will readd
+before weight is 33
+rrt is 759
+succeedTime is 34
+after set weight is 34
+retry buy good 1744 at 2015-5-14 20:34:55
+Download full image code is correct as 03581
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"03581","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:56, will readd
+before weight is 34
+rrt is 1055
+succeedTime is 34
+after set weight is 34
+retry buy good 1744 at 2015-5-14 20:34:57
+Download full image code is correct as 84362
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"84362","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:58, will readd
+before weight is 34
+rrt is 1066
+succeedTime is 34
+after set weight is 34
+retry buy good 1744 at 2015-5-14 20:34:59
+Download full image code is correct as 53964
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"53964","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:34:59, will readd
+before weight is 34
+rrt is 759
+succeedTime is 35
+after set weight is 35
+retry buy good 1744 at 2015-5-14 20:35:00
+Download full image code is correct as 89705
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"89705","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:01, will readd
+before weight is 35
+rrt is 773
+succeedTime is 36
+after set weight is 36
+retry buy good 1744 at 2015-5-14 20:35:01
+Download full image code is correct as 84360
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"84360","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:05, will readd
+before weight is 36
+rrt is 3929
+succeedTime is 35
+after set weight is 35
+retry buy good 1744 at 2015-5-14 20:35:06
+Download full image code is correct as 36950
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"36950","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:07, will readd
+before weight is 35
+rrt is 762
+succeedTime is 36
+after set weight is 36
+retry buy good 1744 at 2015-5-14 20:35:07
+Download full image code is correct as 28916
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"28916","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:08, will readd
+before weight is 36
+rrt is 771
+succeedTime is 37
+after set weight is 37
+retry buy good 1744 at 2015-5-14 20:35:09
+Download full image code is correct as 07519
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"07519","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:12, will readd
+before weight is 37
+rrt is 3766
+succeedTime is 36
+after set weight is 36
+retry buy good 1744 at 2015-5-14 20:35:13
+Download full image code is correct as 28796
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"28796","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:14, will readd
+before weight is 36
+rrt is 755
+succeedTime is 37
+after set weight is 37
+retry buy good 1744 at 2015-5-14 20:35:14
+Download full image code is correct as 03624
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"03624","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:18, will readd
+before weight is 37
+rrt is 3746
+succeedTime is 36
+after set weight is 36
+retry buy good 1744 at 2015-5-14 20:35:19
+Download full image code is correct as 85034
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"85034","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:19, will readd
+before weight is 36
+rrt is 759
+succeedTime is 37
+after set weight is 37
+retry buy good 1744 at 2015-5-14 20:35:20
+Download full image code is correct as 27986
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"27986","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:21, will readd
+before weight is 37
+rrt is 765
+succeedTime is 38
+after set weight is 38
+retry buy good 1744 at 2015-5-14 20:35:21
+Download full image code is correct as 21846
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"21846","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:22, will readd
+before weight is 38
+rrt is 767
+succeedTime is 39
+after set weight is 39
+retry buy good 1744 at 2015-5-14 20:35:23
+Download full image code is correct as 27068
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"27068","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:23, will readd
+before weight is 39
+rrt is 756
+succeedTime is 40
+after set weight is 40
+retry buy good 1744 at 2015-5-14 20:35:24
+Download full image code is correct as 58627
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"58627","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:25, will readd
+before weight is 40
+rrt is 754
+succeedTime is 41
+after set weight is 41
+retry buy good 1744 at 2015-5-14 20:35:25
+Download full image code is correct as 68740
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"68740","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:26, will readd
+before weight is 41
+rrt is 766
+succeedTime is 42
+after set weight is 42
+retry buy good 1744 at 2015-5-14 20:35:27
+Download full image code is correct as 50387
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"50387","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:28, will readd
+before weight is 42
+rrt is 753
+succeedTime is 43
+after set weight is 43
+retry buy good 1744 at 2015-5-14 20:35:28
+Download full image code is correct as 54186
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"54186","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:29, will readd
+before weight is 43
+rrt is 755
+succeedTime is 44
+after set weight is 44
+retry buy good 1744 at 2015-5-14 20:35:29
+Download full image code is correct as 21678
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"21678","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:31, will readd
+before weight is 44
+rrt is 1061
+succeedTime is 44
+after set weight is 44
+retry buy good 1744 at 2015-5-14 20:35:31
+Download full image code is correct as 84907
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"84907","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:32, will readd
+before weight is 44
+rrt is 754
+succeedTime is 45
+after set weight is 45
+retry buy good 1744 at 2015-5-14 20:35:32
+Download full image code is correct as 95138
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"95138","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:33, will readd
+before weight is 45
+rrt is 760
+succeedTime is 46
+after set weight is 46
+retry buy good 1744 at 2015-5-14 20:35:34
+Download full image code is correct as 52439
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"52439","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:35, will readd
+before weight is 46
+rrt is 767
+succeedTime is 47
+after set weight is 47
+retry buy good 1744 at 2015-5-14 20:35:35
+Download full image code is correct as 35297
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"35297","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:36, will readd
+before weight is 47
+rrt is 768
+succeedTime is 48
+after set weight is 48
+retry buy good 1744 at 2015-5-14 20:35:37
+Download full image code is correct as 23460
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"23460","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:37, will readd
+before weight is 48
+rrt is 762
+succeedTime is 49
+after set weight is 49
+retry buy good 1744 at 2015-5-14 20:35:38
+Download full image code is correct as 45763
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"45763","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:39, will readd
+before weight is 49
+rrt is 762
+succeedTime is 50
+after set weight is 50
+retry buy good 1744 at 2015-5-14 20:35:39
+Download full image code is correct as 63251
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"63251","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:40, will readd
+before weight is 50
+rrt is 768
+succeedTime is 51
+after set weight is 51
+retry buy good 1744 at 2015-5-14 20:35:41
+Download full image code is correct as 92473
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"92473","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:42, will readd
+before weight is 51
+rrt is 1231
+succeedTime is 51
+after set weight is 51
+retry buy good 1744 at 2015-5-14 20:35:42
+Download full image code is correct as 34791
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"34791","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:43, will readd
+before weight is 51
+rrt is 764
+succeedTime is 52
+after set weight is 52
+retry buy good 1744 at 2015-5-14 20:35:44
+Download full image code is correct as 41523
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"41523","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:45, will readd
+before weight is 52
+rrt is 766
+succeedTime is 53
+after set weight is 53
+retry buy good 1744 at 2015-5-14 20:35:45
+Download full image code is correct as 78934
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"78934","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:46, will readd
+before weight is 53
+rrt is 760
+succeedTime is 54
+after set weight is 54
+retry buy good 1744 at 2015-5-14 20:35:47
+Download full image code is correct as 46091
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"46091","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:47, will readd
+before weight is 54
+rrt is 756
+succeedTime is 55
+after set weight is 55
+retry buy good 1744 at 2015-5-14 20:35:48
+Download full image code is correct as 34650
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"34650","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:49, will readd
+before weight is 55
+rrt is 1058
+succeedTime is 55
+after set weight is 55
+retry buy good 1744 at 2015-5-14 20:35:50
+Download full image code is correct as 19342
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"19342","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:50, will readd
+before weight is 55
+rrt is 754
+succeedTime is 56
+after set weight is 56
+retry buy good 1744 at 2015-5-14 20:35:51
+Download full image code is correct as 21036
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"21036","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:52, will readd
+before weight is 56
+rrt is 754
+succeedTime is 57
+after set weight is 57
+retry buy good 1744 at 2015-5-14 20:35:52
+Download full image code is correct as 32560
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"32560","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:53, will readd
+before weight is 57
+rrt is 756
+succeedTime is 58
+after set weight is 58
+retry buy good 1744 at 2015-5-14 20:35:54
+Download full image code is correct as 82514
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"82514","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:54, will readd
+before weight is 58
+rrt is 767
+succeedTime is 59
+after set weight is 59
+retry buy good 1744 at 2015-5-14 20:35:55
+Download full image code is correct as 97231
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"97231","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:56, will readd
+before weight is 59
+rrt is 770
+succeedTime is 60
+after set weight is 60
+retry buy good 1744 at 2015-5-14 20:35:56
+Download full image code is correct as 04619
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"04619","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:57, will readd
+before weight is 60
+rrt is 748
+succeedTime is 61
+after set weight is 61
+retry buy good 1744 at 2015-5-14 20:35:58
+Download full image code is correct as 25730
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"25730","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:35:58, will readd
+before weight is 61
+rrt is 745
+succeedTime is 62
+after set weight is 62
+retry buy good 1744 at 2015-5-14 20:35:59
+Download full image code is correct as 28753
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"28753","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:00, will readd
+before weight is 62
+rrt is 762
+succeedTime is 63
+after set weight is 63
+retry buy good 1744 at 2015-5-14 20:36:00
+Download full image code is correct as 96835
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"96835","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:01, will readd
+before weight is 63
+rrt is 758
+succeedTime is 64
+after set weight is 64
+retry buy good 1744 at 2015-5-14 20:36:02
+Download full image code is correct as 24319
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"24319","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:03, will readd
+before weight is 64
+rrt is 752
+succeedTime is 65
+after set weight is 65
+retry buy good 1744 at 2015-5-14 20:36:03
+Download full image code is correct as 13850
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"13850","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:04, will readd
+before weight is 65
+rrt is 764
+succeedTime is 66
+after set weight is 66
+retry buy good 1744 at 2015-5-14 20:36:05
+Download full image code is correct as 16930
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"16930","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:05, will readd
+before weight is 66
+rrt is 750
+succeedTime is 67
+after set weight is 67
+retry buy good 1744 at 2015-5-14 20:36:06
+Download full image code is correct as 86731
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"86731","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:10, will readd
+before weight is 67
+rrt is 3764
+succeedTime is 66
+after set weight is 66
+retry buy good 1744 at 2015-5-14 20:36:10
+Download full image code is correct as 29805
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"29805","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:11, will readd
+before weight is 66
+rrt is 1114
+succeedTime is 66
+after set weight is 66
+retry buy good 1744 at 2015-5-14 20:36:12
+Download full image code is correct as 43720
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"43720","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:13, will readd
+before weight is 66
+rrt is 758
+succeedTime is 67
+after set weight is 67
+retry buy good 1744 at 2015-5-14 20:36:13
+Download full image code is correct as 81257
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"81257","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:17, will readd
+before weight is 67
+rrt is 3763
+succeedTime is 66
+after set weight is 66
+retry buy good 1744 at 2015-5-14 20:36:18
+Download full image code is correct as 76485
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"76485","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:18, will readd
+before weight is 66
+rrt is 770
+succeedTime is 67
+after set weight is 67
+retry buy good 1744 at 2015-5-14 20:36:19
+Download full image code is correct as 60389
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"60389","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:20, will readd
+before weight is 67
+rrt is 762
+succeedTime is 68
+after set weight is 68
+retry buy good 1744 at 2015-5-14 20:36:20
+Download full image code is correct as 53942
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"53942","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:21, will readd
+before weight is 68
+rrt is 751
+succeedTime is 69
+after set weight is 69
+retry buy good 1744 at 2015-5-14 20:36:22
+Download full image code is correct as 60284
+{"error":3,"message":["\u5bf9\u4e0d\u8d77\uff0c\u8be5\u5546\u54c1\u5df2\u7ecf\u4e0b\u67b6\u3002"],"content":"","goods_id":"1744","captcha":"60284","number":"1","donation_number":null,"product_spec":"","confirm_type":"3"}
+addToCart(1744,1) failed at 2015-5-14 20:36:23, will readd
+before weight is 69
+rrt is 1051
+succeedTime is 69
+after set weight is 69
+retry buy good 1744 at 2015-5-14 20:36:23
